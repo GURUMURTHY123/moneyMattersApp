@@ -1,0 +1,47 @@
+.credit-card-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  background-color:white;
+  border-radius:22px;
+  width:480px;
+  height:150px;
+  align-items:flex-start;
+  padding:20px;
+}
+
+.credit-detail-container{
+  display:flex;
+  flex-direction:column;
+}
+
+.amount{
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom:2px;
+}
+
+.transaction-detail{
+  color: #718EBF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.debit{
+  color:#FE5C73
+}
+
+.credit{
+  color: #16DBAA;
+}
+
+.card-image{
+  width:150px;
+  height:132px;
+}

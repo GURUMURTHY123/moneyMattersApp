@@ -1,0 +1,55 @@
+.profile-details-container{
+  display:flex;
+  flex-direction:row;
+  border-radius:25px;
+  background-color:white;
+  padding:20px;
+  padding-top:30px;
+  align-items:flex-start;
+  margin:25px;
+}
+
+.profile-image{
+  border-radius:60px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  margin-right:32px;
+}
+
+.profile-display-container{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.user-detail-container{
+  display:flex;
+  flex-direction: column;
+  margin-bottom:15px;
+  margin-right:18px;
+}
+
+.label-element{
+  color: #505887;
+  font-family:"Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom:8px;
+}
+
+.input-element{
+  border-radius: 15px;
+  border: 1px solid #DFEAF2;
+  background-color: #FFF;
+  width: 405px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #718EBF;
+  font-family:"Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  padding-left:10px;
+  outline:none;
+}
+

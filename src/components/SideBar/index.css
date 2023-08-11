@@ -1,0 +1,138 @@
+.sidebar-container{
+  display:flex;
+  flex-direction:column;
+  flex-shrink:0;
+  padding-top:10px;
+  padding-bottom:10px;
+  width:250px;
+  border-right:1px solid #dddadade;
+  background-color:white;
+  min-height:100vh;
+}
+
+.app-logo-container{
+  display:flex;
+  flex-direction:row;
+  margin-left:10px;
+  margin-bottom:25px;
+  align-items:center;
+}
+
+.app-logo{
+  height:40px;
+  width:40px;
+  margin-right:8px;
+}
+
+.app-title{
+  color:orange;
+  font-family:"Poppins";
+  font-size:18px;
+  font-weight:800;
+}
+
+span{
+  color:#02969C;
+}
+
+.menu-container{
+  flex-shrink: 0;
+}
+
+.footer-bg-container{
+  flex-grow:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  margin-bottom:12px;
+  padding:12px;
+}
+
+.footer-container{
+  display:flex;
+  align-items:flex-start;
+}
+
+.avatar{
+  border-radius:20px;
+  width:40px;
+  height:40px;
+  margin-right:2px;
+}
+
+.footer-text-container{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  margin-right:5px;
+}
+
+.avatar-name{
+  color: #505887;
+  font-family:"Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.avatar-email{
+  color: #718EBF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.logout-modal{
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+  padding:20px;
+}
+
+.logout-popup-heading{
+  color: #333B69;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.logout-popup-description{
+  color: #505887;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.logout-popup-button{
+  padding-left:16px;
+  padding-right:16px;
+  color:white;
+  background-color:#DC2626;
+  border-radius:10px;
+  margin-right:16px;
+  outline:none;
+  border:none;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.cancel-popup-button{
+  padding-left:16px;
+  padding-right:16px;
+  background-color:#FFFFFF;
+  border-radius:10px;
+  margin-right:16px;
+  border: 1px solid #CBD5E1;
+  color:#333B69;
+  outline:none;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+

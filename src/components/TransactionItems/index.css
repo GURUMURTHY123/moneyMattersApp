@@ -1,0 +1,149 @@
+.list-item-container{
+  /* border-bottom:1px solid #dddadade; */
+  margin-bottom:10px;
+}
+
+.separatorClassName{
+  border-top:1px solid #dddadade;
+  padding-top:8px;
+}
+
+.transaction-icon{
+  height:30px;
+  width:30px;
+  margin-right:8px;
+}
+
+.row-item{
+  display:flex;
+  align-items:center;
+}
+
+.transaction-name{
+  color: #505887;
+  font-family:"Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width:280px;
+  margin-right:50px;
+}
+
+.category{
+  color: #718EBF;
+  font-family:"Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width:200px;
+  margin-right:50px;
+}
+
+.date{
+  color: #718EBF;
+  font-family:"Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width:131px;
+  margin-right:90px;
+}
+
+.transaction-amount{
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width:42px;
+  margin-right:50px;
+}
+
+.red{
+  color:#FE5C73;
+}
+
+.green{
+  color:#16DBAA;
+}
+
+.edit-icon{
+  margin-right:15px;
+}
+
+.popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  width: 43%;
+  border-radius:20px;
+}
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role='tooltip'].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.popup-overlay {
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgba(52, 64, 84, 0.70);
+  backdrop-filter: blur(8px);
+  
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}
+
+.delete-modal{
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+  padding:20px;
+}
+
+.del-popup-heading{
+  color: #333B69;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.del-popup-description{
+  color: #505887;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.delete-popup-button{
+  padding-left:16px;
+  padding-right:16px;
+  color:white;
+  background-color:#DC2626;
+  border-radius:10px;
+  margin-right:16px;
+  outline:none;
+  border:none;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.leave-popup-button{
+  padding-left:16px;
+  padding-right:16px;
+  background-color:#FFFFFF;
+  border-radius:10px;
+  margin-right:16px;
+  border: 1px solid #CBD5E1;
+  color:#333B69;
+  outline:none;
+  padding-top:10px;
+  padding-bottom:10px;
+}

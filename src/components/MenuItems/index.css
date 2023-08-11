@@ -1,0 +1,49 @@
+.link-container{
+  display:flex;
+  flex-direction:row;
+  padding-left:30px;
+  align-items:center;
+}
+
+.activeLinkContainer{
+  border-left:2px solid blue;
+}
+
+.link-container:hover{
+  border-left:2px solid blue;
+}
+
+.icon{
+  height:22px;
+  width:22px;
+  margin-right:20px;
+  color:black;
+}
+
+.activeLinkIcon{
+  color:blue;
+}
+
+.icon:hover{
+  color:blue;
+}
+
+.link-description{
+  font-size:16px;
+  font-weight:500;
+  font-family:"Poppins";
+}
+
+.activeLinkDescription{
+  color:blue;
+}
+
+.link-description:hover{
+  color:blue;
+}
+
+.link{
+  text-decoration:none;
+  color:black;
+}
+
